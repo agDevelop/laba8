@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 12vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: #c2f25f;
+  height: 11vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+
+header {
+  padding: 15px 40px;
+    background-size: cover;
+
+}
+
+
+
+.logo 
+{
+  position: absolute;
+  width: 85px;
+  left: 10px;
+  top: 15px;
+}
+
+nav {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.main-menu {
+  font-size: larger;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+.main-menu li {
+  display: inline-block;
+  margin-right: 0;
+  width: 10%;
+}
+
+.main-menu a {
+  display: block;
+  margin-left: -1px;
+  padding: 8px 10px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 10px;
+
+  background-color: #f6f6f6;
+}
+
+.main-menu a:hover {
+  color: #000;
+  background-color: #80ad25;
+  box-shadow: 0 5px 30px #fff;
+}
+
+h1, h2, h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+p, ul {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+  font-size: large;
+}
+
+.bike {
+
+  width: 75%;
+}
+
+.bike_sm {
+
+  width: 50%;
+}
+
+.vert_menu ul {
+
+  list-style-type: circle;
+}
+
+.vert_menu li {
+
+  display: block;
+
+   list-style-type: circle;
+}
+
+li a {
+
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.copyright {
+
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  color: #000;
+}
